@@ -1,10 +1,15 @@
 def is_odd?(number)
+    if (number % 2) == 0
+      false
+    else
+      true
+    end
 end
 
   n = 5
-  result = is_odd? (5)
-  puts "#{5} is odd?: #{true}"
+  result = is_odd?(n)
+  puts "#{n} is_odd?: #{result}"
 
   n = 4
-  result = is_odd? (4)
-  puts "#{4} is_odd?: #{false}"
+  result = is_odd?(n)
+  puts "#{n} is_odd?: #{result}"
