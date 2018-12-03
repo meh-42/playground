@@ -7,4 +7,4 @@ end
 
   n = 4
   result = is_odd? (4)
-  puts "#{4} is odd?: #{false}"
+  puts "#{4} is_odd?: #{false}"
